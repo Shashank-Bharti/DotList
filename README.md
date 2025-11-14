@@ -1,3 +1,5 @@
+![DotList banner](./src/assets/github_banner.png)
+
 # DotList
 
 DotList is a minimalist, responsive todo list that focuses on a fast writing flow, snappy animations, and a distraction‑free UI. It ships with dark mode, keyboard-friendly input, and a segmented filter so you can jump between every task and your remaining work.
