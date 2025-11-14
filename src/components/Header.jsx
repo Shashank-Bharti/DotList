@@ -23,7 +23,7 @@ function Header() {
       <div className=" lg:block fixed font-[Doto]  justify-evenly hidden font-bold top-10 p-2 w-2xl border-slate-400 bg-slate-300 dark:border-slate-700 border-2 rounded-xl dark:bg-slate-900">
         <div className="flex justify-between items-center">
           <span className=" font-semibold text-slate-700  dark:text-slate-200 px-2 ">
-            DotList
+            <a href="https://github.com/Shashank-Bharti/DotList" target="_blank">DotList</a>
           </span>
           <span className=" -mt-1 -ml-20">
             <SegmentedControl />
@@ -43,7 +43,7 @@ function Header() {
       <div className=" font-[Doto]  md:hidden font-bold top-5 p-2 w-[calc(100vw-10%)]  border-slate-400 dark:border-slate-700 border-2 rounded-xl bg-slate-300  dark:bg-slate-900">
         <div className="flex flex-row justify-between items-center px-2 ">
           <span className=" text-slate-800 font-black dark:text-slate-200 px-2 ">
-            DotList
+            <a href="https://github.com/Shashank-Bharti/DotList" target="_blank">DotList</a>
           </span>
           <button className="text-slate-200 dark:text-slate-800 flex p-1 bg-slate-400 dark:bg-slate-200 rounded-full drop-shadow-slate-300 drop-shadow-[0_0px_3px_rgba(0,0,0,0.4)]">
             <motion.span 
