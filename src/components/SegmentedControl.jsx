@@ -15,12 +15,16 @@ function SegmentedControl() {
     <>
       <div className=" inline-flex rounded-xl p-0.5 gap-x-4w-0 shadow-inner dark:shadow-slate-900 shadow-slate-500 justify-between items-center bg-slate-400 dark:bg-slate-800">
         {items.map((item, idx) => {
+          const handleClick = () => {
+            if (idx === currentIdx) return;
+            setCurrentIdx(idx);
+            toggleFilterMode();
+          };
           return (
             <div
             key={idx}
               className="relative text-sm hover:opacity-90 duration-200 ease-in flex min-w-3 cursor-pointer px-2 py-1"
-              onClick={() => {setCurrentIdx(idx) 
-                toggleFilterMode()} }
+              onClick={handleClick}
             >
             
               {currentIdx === idx ? (

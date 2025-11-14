@@ -22,7 +22,7 @@ function Header() {
       {/* Laptops */}
       <div className=" lg:block fixed font-[Doto]  justify-evenly hidden font-bold top-10 p-2 w-2xl border-slate-400 bg-slate-300 dark:border-slate-700 border-2 rounded-xl dark:bg-slate-900">
         <div className="flex justify-between items-center">
-          <span className="  text-slate-700 font-black dark:text-slate-200 px-2 ">
+          <span className=" font-semibold text-slate-700  dark:text-slate-200 px-2 ">
             DotList
           </span>
           <span className=" -mt-1 -ml-20">

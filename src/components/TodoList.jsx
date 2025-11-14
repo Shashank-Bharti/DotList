@@ -14,7 +14,7 @@ function TodoList() {
     <div className=" bg-slate-300 dark:bg-slate-900 flex flex-col gap-4 p-2 overflow-y-auto scroll-smooth hide-scrollbar container h-screen max-w-2xl w-[calc(100vw-10%)] rounded-2xl">
       {filterMode === "all" ? (
         alltodos.length === 0 ? (
-          <span className="place-self-center text-center text-xl font-[Doto] font-bold text-slate-700">
+          <span className="place-self-center text-center text-sm xl:text-xl mt-50 font-[Doto] font-bold text-slate-700">
             No Tasks
           </span>
         ) : (
@@ -22,7 +22,7 @@ function TodoList() {
           alltodos.map((todos) => <TodoItem key={todos.id} todo={todos} />)
         )
       ) : remainingTodos.length === 0 ? (
-        <span className="place-self-center text-center text-xl font-[Doto] font-bold text-slate-700">
+        <span className="place-self-center text-center text-sm xl:text-xl mt-50 font-[Doto] font-bold text-slate-700">
           No Remaining Tasks
         </span>
       ) : (
