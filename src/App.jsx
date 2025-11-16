@@ -1,11 +1,14 @@
 import { Header, TodoForm, TodoList } from "./components";
 import SegmentedControl from "./components/SegmentedControl";
 import { motion } from "motion/react";
+import { Analytics } from "@vercel/analytics/next"
+
 function App() {
   const year = new Date().getFullYear();
   const copyrightText = `© ${year} Shashank Bharti`;
   return (
     <>
+      <Analytics />
       <motion.div
     
        className="absolute inset-0 z-[-2] flex items-center justify-center h-screen w-screen bg-slate-400 dark:bg-slate-950 bg-[radial-gradient(#ffffff75_2px,#E2E8F0_2px)] dark:bg-[radial-gradient(#ffffff15_2px,#020618_2px)] bg-size-[36px_36px]">
